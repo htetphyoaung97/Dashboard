@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Dashbord</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="../css/sidebarmenu.css">
+	<link rel="stylesheet" type="text/css" href="../css/query.css">
+</head>
+<body>
+	<header>
+		<div class="wapper-header">			
+			<div class="container-fluid">
+				<div class="row">		
+					<div class="col-md-2 right-logo">
+						<a href="../index.html">
+							<img src="../images/ninja.png" alt="logo" style="width: 135px; height:65px;">
+						</a>
+						<div class="hunberger" id="hunberger-icon">			
+							<i class="fas fa-bars"></i>
+						</div>
+					</div>
+					<div class="col-md-10">	
+						<div class="top-nav">
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-lg-4">
+									<a href="../index.html">
+										<img src="../images/ninja.png" alt="logo" style="width: 135px; height:65px;">
+									</a>
+								</div>
+								<div class="col-md-8 col-sm-8 col-lg-8">
+									<div class="main-nav">
+										<nav class="navbar navbar-light">
+											<div class="right-side">
+												<ul>
+													<li>
+												      	<select id="inputState" class="form-control">
+												        	<option selected>Myanmar</option>
+												        	<option>English</option>
+												        	<option>French</option>
+												        	<option>German</option>
+												      	</select>
+													</li>
+													<li>
+														<div class="icon">
+															<i class="fas fa-bell"></i>
+														</div>
+													</li>
+													<li>
+														<div class="mail">
+															<i class="fas fa-envelope"></i>
+														</div>
+													</li>
+													<li>
+														<img src="../images/joedoe.png" alt="..." class="rounded-circle">
+													</li>
+													<li>
+												      	<div class="btn-group dropleft">
+														  	<button type="button" class="btn btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														    Mg Mg
+														  	</button>
+														  	<div class="dropdown-menu">
+															    <a class="dropdown-item" href="#">
+															     	<i class="fas fa-user"></i>Edit Profile
+																</a>
+															    <a class="dropdown-item" href="#">
+															    	<i class="fas fa-envelope"></i>My Box
+																</a>
+															    <a class="dropdown-item" href="#">
+															    	<i class="fas fa-tasks"></i>Task
+																</a>
+															    <a class="dropdown-item" href="#">
+															    	<i class="fas fa-comment"></i>Chart
+															    </a>
+														    	<div class="dropdown-divider"></div>
+														    	<a class="dropdown-item" href="#">
+														    		<i class="fas fa-sign-out-alt"></i>LogOut
+														    	</a>
+														  	</div>
+														</div>
+													</li>
+												</ul>
+											</div>	  
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 col-sm-2 col-lg-2 left-side-bar-menu">		
+					<div class="wrapper">
+					    <!-- Sidebar  -->
+					    <nav id="sidebar">	        
+					        <h6>Menu</h6>
+					        <ul class="list-unstyled components">
+					            <li class="active">
+					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                    <i class="fas fa-home"></i>
+					                    Dashboards
+					                </a>
+					                <ul class="collapse list-unstyled" id="homeSubmenu">
+					                    <li>
+					                        <a href="analytic.html">Analytics</a>
+					                    </li>
+					                    <li>
+					                        <a href="commerce.html">Commerce</a>
+					                    </li>
+					                    <li>
+					                        <a href="#">Sales</a>
+					                    </li>
+					                    <li>
+					                    	<a herf="#">CRM</a>					                    	
+					                    </li>
+					                </ul>
+					            </li>
+					            <li>
+					                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                    <i class="fas fa-copy"></i>
+					                    Pages 
+					                </a>
+					                <ul class="collapse list-unstyled" id="pageSubmenu">
+				                    	<li>
+				                    		<a href="login.html">Login</a>
+				                    	</li>
+				                    	<li>
+				                    		<a href="singin.html">Register</a>
+				                    	</li>
+				                    	<li>
+				                    		<a href="">Forgot Password</a>
+				                    	</li>
+					                </ul>
+					            </li>
+					            <ul class ="application">
+					            	<li>
+					            		<a href="#applicationDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					            			<i class="fas fa-gifts"></i>Application
+					            		</a>
+					            		<ul id="applicationDropDown" class="help-team">
+					            			<li>
+					            				<a href="mailbox.html">Mail Box</a>
+					            			</li>
+					            			<li>
+					            				<a href="chart.html">Chat</a>
+					            			</li>
+					            			<li>
+					            				<a href="#">FAQ Section</a>	
+					            			</li>
+					            			<li>
+					            				<a href="#">Formuns</a>	
+					            			</li>
+					            		</ul>
+					            	</li>
+					            </ul>
+					        </ul>
+					        <h6>UI COMPONENTS</h6>
+					        <ul>
+					        	<li>
+					        		<a href="project.html">
+					        			<i class="far fa-gem"></i>Project Summary
+					        		</a>
+					        	</li>
+					        	<ul class="noti">
+					        		<li>
+					        			<a href="#componentDropDown">
+					        				<i class="fas fa-car"></i>
+					        					Components
+					        			</a>
+					        		</li>
+					        	</ul>
+					        	<ul class="table">
+					        		<li>
+					        			<a href="#tableDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					        				<i class="fas fa-table"></i>
+					        					Table
+					        			</a>
+					        			<ul id="tableDropDown" class="table-bar">
+					        				<li>
+					        					<a href="datatb.html">Data Tables</a>
+					        				</li>
+					        				<li>
+					        					<a href="regulartb.html">Regular Tables</a>
+					        				</li>
+					        				<li>
+					        					<a href="gridtb.html">Grid Tables</a>
+					        				</li>
+					        			</ul>
+					        		</li>
+					        	</ul>
+					        </ul>
+					    </nav>
+					</div>
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 mail-pos pl-0 pb-0">
+					<div class="container-fluid">
+						<div class="row mt-4">
+							<div class="col-md-8 col-sm-8 col-lg-8">
+								<h4 class="text-black-50">Project Summary</h4>
+							</div>
+							<div class="col-md-4 col-sm-4 col-lg-4">
+								<div class="project-ls">
+									<ul class="list-group list-group-horizontal-md">
+									  <a href="#" class="list-group-item text-info text-decoration-none">HOME</a>
+									  <a href="#" class="list-group-item text-info text-decoration-none">PROJECT</a>
+									  <li class="list-group-item">Project Summary</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-md-8 col-sm-8 col-lg-8">
+								<div class="project-grap">
+									<div class="card">
+									  	<div class="card-body">
+									  		<div class="project-dev">
+										    	<h6 class="text-black-50 float-left">MOBILE APP DEVELOPMENT</h6>
+										    	<ul class="d-flex float-right" style="list-style: none;">
+										    		<li class="mr-2">
+										    			<span class="badge badge-warning">Andriod</span>
+										    		</li>
+										    		<li class="mr-2">
+										    			<span class="badge badge-success">G-Pixle</span>
+										    		</li>
+										    		<li class="mr-2">
+										    			<span class="badge badge-info">IOS</span>
+										    		</li>
+										    	</ul>
+									    	</div>
+									  	</div>
+									  	<div class="card-body">
+								    		<div class="project-title text-black-50 text-center d-block">
+								    			<p>Project Deploment Mobile Application</p>
+								    		</div>
+									    </div>
+									    <div class="card-body">
+									    	<div class="row">
+									    		<div class="col-md-4 col-sm-4 col-lg-4 d-flex" style="align-items: center; justify-content: center;">
+									    			<div class="border border-info rounded-circle d-flex" style="width: 100px; height: 100px; align-items: center; justify-content: center;">
+									    				<span>15</span>
+									    			</div>
+									    			<div class="border border-info rounded-circle d-flex pj-user" style="width: 45px; height: 45px; align-items: center; justify-content: center;">
+									    				<span><i class="far fa-user"></i></span>
+									    			</div>
+									    		</div>
+									    		<div class="col-md-4 col-sm-4 col-lg-4 d-flex" style="align-items: center; justify-content: center;">
+									    			<div class="border border-info rounded-circle d-flex" style="width: 100px; height: 100px; align-items: center; justify-content: center;">
+									    				<span>85</span>
+									    			</div>
+									    			<div class="border border-info rounded-circle d-flex pj-user" style="width: 45px; height: 45px; align-items: center; justify-content: center;">
+									    				<span><i class="fas fa-tasks"></i></span>
+									    			</div>
+									    		</div>
+									    		<div class="col-md-4 col-sm-4 col-lg-4 d-flex" style="align-items: center; justify-content: center;">
+									    			<div class="border border-info rounded-circle d-flex" style="width: 100px; height: 100px; align-items: center; justify-content: center;">
+									    				<span>10</span>
+									    			</div>
+									    			<div class="border border-info rounded-circle d-flex pj-user" style="width: 45px; height: 45px; align-items: center; justify-content: center;">
+									    				<span><i class="fas fa-bug"></i></span>
+									    			</div>
+									    		</div>
+									    	</div>
+									    	<div class="row">
+									    		<div class="col-md-4 col-sm-4 col-lg-4">
+									    		 	<div class="text-black-50 text-center mt-5">
+									    		 		<span>Project Users</span>
+									    		 	</div>
+									    		</div>
+									    		<div class="col-md-4 col-sm-4 col-lg-4">
+									    		 	<div class="text-black-50 text-center mt-5">
+									    		 		<span>Project Tasks</span>
+									    		 	</div>
+									    		</div>
+									    		<div class="col-md-4 col-sm-4 col-lg-4">
+									    		 	<div class="text-black-50 text-center mt-5">
+									    		 		<span>Project Bugs</span>
+									    		 	</div>
+									    		</div>
+									    	</div>
+									    	<div class="row mt-5">
+									    		<div class="col-md-6 col-sm-6 col-lg-6">
+									    			<div class="task">
+									    				<h6 class="text-black-50">Task</h6>
+									    				<div class="progress">
+														  <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">75%</div>
+														</div>
+									    			</div>
+									    		</div>
+									    		<div class="col-md-6 col-sm-6 col-lg-6">
+									    			<div class="task-ls">
+									    				<h6 class="text-black-50">Task List</h6>
+									    				<div class="progress">
+														  <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">65%</div>
+														</div>
+									    			</div>
+									    		</div>
+									    	</div>
+									    	<div class="row mt-5">
+									    		<div class="col-md-6 col-sm-6 col-lg-6">
+									    			<div class="task">
+									    				<h6 class="text-black-50">Users</h6>
+									    				<div class="progress">
+														  <div class="progress-bar bg-warning" role="progressbar" style="width: 68%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">68%</div>
+														</div>
+									    			</div>
+									    		</div>
+									    		<div class="col-md-6 col-sm-6 col-lg-6">
+									    			<div class="task-ls">
+									    				<h6 class="text-black-50">Bug</h6>
+									    				<div class="progress">
+														  <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">45%</div>
+														</div>
+									    			</div>
+									    		</div>
+									    	</div>
+									    </div>
+									</div>
+								</div>
+								<div class="row mt-4 mb-4">
+									<div class="col-md-6 col-sm-6 col-lg-6">
+										<div class="card">
+											<div class="card-body">
+												<div class="task-progress">
+													<div id="task-pg" style="height: 370px; width: 100%;"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 col-lg-6">
+										<div class="card">
+											<div class="card-body">
+												<div class="bug-progress">
+													<div id="bug-pg" style="height: 370px; width: 100%;">
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-lg-4">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Progress Task</h5>
+										<div class="txt-pg">
+											<p>
+												Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="progress-user mt-4">
+									<div class="list-group">
+									  <a href="#" class="list-group-item list-group-item-action active">
+									    PROJECT USERS
+									  </a>
+									  <a href="#" class="list-group-item list-group-item-action">
+									  	<div class="user-img">
+									  		<div class="media">
+												<img src="../images/joedoe.png" class="align-self-center rounded-circle mr-3" style="width: 30px; height: 30px;" alt="...">
+												<div class="media-body">
+												    <h5 class="mt-0 mb-0 text-info">Joe Doe</h5>
+												    <p class="mb-0 text-black-50">Test User</p>
+												</div>
+											</div>
+									  	</div>
+									  </a>
+									  <a href="#" class="list-group-item list-group-item-action">
+									  	<div class="user-img">
+									  		<div class="media">
+												<img src="../images/joedoe.png" class="align-self-center rounded-circle mr-3" style="width: 30px; height: 30px;" alt="...">
+												<div class="media-body">
+												    <h5 class="mt-0 mb-0 text-info">Joe Doe</h5>
+												    <p class="mb-0 text-black-50">Test User</p>
+												</div>
+											</div>
+									  	</div>
+									  </a>
+									  <a href="#" class="list-group-item list-group-item-action">
+									  	<div class="user-img">
+									  		<div class="media">
+												<img src="../images/joedoe.png" class="align-self-center rounded-circle mr-3" style="width: 30px; height: 30px;" alt="...">
+												<div class="media-body">
+												    <h5 class="mt-0 mb-0 text-info">Joe Doe</h5>
+												    <p class="mb-0 text-black-50">Test User</p>
+												</div>
+											</div>
+									  	</div>
+									  </a>
+									  <a href="#" class="list-group-item list-group-item-action">
+									  	<div class="user-img">
+									  		<div class="media">
+												<img src="../images/joedoe.png" class="align-self-center rounded-circle mr-3" style="width: 30px; height: 30px;" alt="...">
+												<div class="media-body">
+												    <h5 class="mt-0 mb-0 text-info">Joe Doe</h5>
+												    <p class="mb-0 text-black-50">Test User</p>
+												</div>
+											</div>
+									  	</div>
+									  </a>
+									  <a href="#" class="list-group-item list-group-item-action">
+									  	<div class="user-img">
+									  		<div class="media">
+												<img src="../images/joedoe.png" class="align-self-center rounded-circle mr-3" style="width: 30px; height: 30px;" alt="...">
+												<div class="media-body">
+												    <h5 class="mt-0 mb-0 text-info">Joe Doe</h5>
+												    <p class="mb-0 text-black-50">Test User</p>
+												</div>
+											</div>
+									  	</div>
+									  </a>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="footer-cr bg-light p-5 mt-4 text-center">
+						<p class="text-black-50">
+							<a class="text-info text-decoration-none" href="../index.html">Data Board </a><span><i class="far fa-copyright"></i></span>2020 <span>Dev.HtetPhyoAung</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/all.min.js"></script>
+	<script src="../js/swiper.js"></script>
+	<script src="../js/crm.js"></script>
+	<script src="../js/chat.js"></script>
+	<script src="../js/canvas.js"></script>
+	<script src="../js/project.js"></script>
+	
+	
+
+</body>
+</html>

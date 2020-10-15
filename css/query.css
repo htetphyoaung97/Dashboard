@@ -1,0 +1,25 @@
+@media screen and (max-width: 992px) {
+	.login-form {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.mail-pos {
+		position: absolute;
+	}
+	.left-side-bar-menu {
+		position: fixed;
+		z-index: 99999;
+		top: 65px;
+	}
+	.right-logo {
+		position: fixed;
+		z-index: 9999999;
+		top: 0px;
+		background:#fff;
+	}
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Dashbord</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="../css/sidebarmenu.css">
+</head>
+<body>
+	<header>
+		<div class="wapper-header">
+			
+			<div class="container-fluid">
+				<div class="row">		
+					<div class="col-md-2 right-logo">
+						<a href="../index.html">
+							<img src="../images/ninja.png" alt="logo" style="width: 135px; height:65px;">
+						</a>
+						<div class="hunberger" id="hunberger-icon">			
+							<i class="fas fa-bars"></i>
+						</div>
+					</div>
+					<div class="col-md-10">	
+						<div class="top-nav">
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-lg-4">
+									<a href="../index.html">
+										<img src="../images/ninja.png" alt="logo" style="width: 135px; height:65px;">
+									</a>
+								</div>
+								<div class="col-md-8 col-sm-8 col-lg-8">
+									<div class="main-nav">
+										<nav class="navbar navbar-light">
+											<div class="right-side">
+												<ul>
+													<li>
+												      	<select id="inputState" class="form-control">
+												        	<option selected>Myanmar</option>
+												        	<option>English</option>
+												        	<option>French</option>
+												        	<option>German</option>
+												      	</select>
+													</li>
+													<li>
+														<div class="icon">
+															<i class="fas fa-bell"></i>
+														</div>
+													</li>
+													<li>
+														<div class="mail">
+															<i class="fas fa-envelope"></i>
+														</div>
+													</li>
+													<li>
+														<img src="../images/joedoe.png" alt="..." class="rounded-circle">
+													</li>
+													<li>
+												      	<div class="btn-group dropleft">
+														  	<button type="button" class="btn btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														    Mg Mg
+														  	</button>
+														  	<div class="dropdown-menu">
+															    <a class="dropdown-item" href="#">
+															     	<i class="fas fa-user"></i>Edit Profile
+																</a>
+															    <a class="dropdown-item" href="#">
+															    	<i class="fas fa-envelope"></i>My Box
+																</a>
+															    <a class="dropdown-item" href="#">
+															    	<i class="fas fa-tasks"></i>Task
+																</a>
+															    <a class="dropdown-item" href="#">
+															    	<i class="fas fa-comment"></i>Chart
+															    </a>
+														    	<div class="dropdown-divider"></div>
+														    	<a class="dropdown-item" href="#">
+														    		<i class="fas fa-sign-out-alt"></i>LogOut
+														    	</a>
+														  	</div>
+														</div>
+													</li>
+												</ul>
+											</div>	  
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 col-sm-2 col-lg-2 left-side-bar-menu">		
+					<div class="wrapper">
+					    <!-- Sidebar  -->
+					    <nav id="sidebar">	        
+					        <h6>Menu</h6>
+					        <ul class="list-unstyled components">
+					            <li class="active">
+					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                    <i class="fas fa-home"></i>
+					                    Dashboards
+					                </a>
+					                <ul class="collapse list-unstyled" id="homeSubmenu">
+					                    <li>
+					                        <a href="analytic.html">Analytics</a>
+					                    </li>
+					                    <li>
+					                        <a href="commerce.html">Commerce</a>
+					                    </li>
+					                    <li>
+					                        <a href="#">Sales</a>
+					                    </li>
+					                    <li>
+					                    	<a herf="#">CRM</a>					                    	
+					                    </li>
+					                </ul>
+					            </li>
+					            <li>
+					                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                    <i class="fas fa-copy"></i>
+					                    Pages 
+					                </a>
+					                <ul class="collapse list-unstyled" id="pageSubmenu">
+				                    	<li>
+				                    		<a href="">Login</a>
+				                    	</li>
+				                    	<li>
+				                    		<a href="">Register</a>
+				                    	</li>
+				                    	<li>
+				                    		<a href="">Forgot Password</a>
+				                    	</li>
+					                </ul>
+					            </li>
+					            <ul class ="application">
+					            	<li>
+					            		<a href="#applicationDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					            			<i class="fas fa-gifts"></i>Application
+					            		</a>
+					            		<ul id="applicationDropDown" class="help-team">
+					            			<li>
+					            				<a href="mailbox.html">Mail Box</a>
+					            			</li>
+					            			<li>
+					            				<a href="chart.html">Chat</a>
+					            			</li>
+					            			<li>
+					            				<a href="#">FAQ Section</a>	
+					            			</li>
+					            			<li>
+					            				<a href="#">Formuns</a>	
+					            			</li>
+					            		</ul>
+					            	</li>
+					            </ul>
+					        </ul>
+					        <h6>UI COMPONENTS</h6>
+					        <ul>
+					        	<li>
+					        		<a href="#elementDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					        			<i class="far fa-gem"></i>Elements
+					        		</a>
+					        	</li>
+					        	<ul class="noti">
+					        		<li>
+					        			<a href="#componentDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					        				<i class="fas fa-car"></i>
+					        					Components
+					        			</a>
+					        		</li>
+					        	</ul>
+					        	<ul class="table">
+					        		<li>
+					        			<a href="#tableDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					        				<i class="fas fa-table"></i>
+					        					Table
+					        			</a>
+					        			<ul id="tableDropDown" class="table-bar">
+					        				<li>
+					        					<a href="datatb.html">Data Tables</a>
+					        				</li>
+					        				<li>
+					        					<a href="regulartb.html">Regular Tables</a>
+					        				</li>
+					        				<li>
+					        					<a href="gridtb.html">Grid Tables</a>
+					        				</li>
+					        			</ul>
+					        		</li>
+					        	</ul>
+					        </ul>
+					    </nav>
+					</div>
+				</div>
+				<div class="col-md-10 col-sm-10 col-lg-10 pl-0 pb-0">
+					<div class="container-fluid">
+						<div class="analytic-list mt-4">
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-lg-3">
+									<div class="card text-white bg-primary mb-3 text-center">
+								  		<div class="card-body">
+								    		<div class="icon-cm">
+								    			<i class="fas fa-camera"></i>
+								    		</div>
+								    		<div class="product-cm">
+								    			<h5>Products</h5>
+								    			<p>100+</p>
+								    		</div>
+								  		</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-lg-3">
+									<div class="card text-white bg-info mb-3 text-center">
+								  		<div class="card-body">
+								    		<div class="icon-user">
+								    			<i class="fas fa-users"></i>
+								    		</div>
+								    		<div class="new-user">
+								    			<h5>New Daily Users</h5>
+								    			<p>65+</p>
+								    		</div>
+								  		</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-lg-3">
+									<div class="card text-white bg-success mb-3 text-center">
+									  	<div class="card-body">
+								    		<div class="icon-order">
+								    			<i class="fas fa-shopping-basket"></i>
+								    		</div>
+								    		<div class="new-order">
+								    			<h5>New Daily Order</h5>
+								    			<p>50+</p>
+								    		</div>
+								  		</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-lg-3">
+									<div class="card text-white bg-warning mb-3 text-center">
+									  	<div class="card-body">
+								    		<div class="icon-wallet">
+								    			<i class="fas fa-wallet"></i>
+								    		</div>
+								    		<div class="total-wallet">
+								    			<h5>Total Wallet</h5>
+								    			<p>2.5 M</p>
+								    		</div>
+								  		</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-md-8 col-sm-8 col-lg-8">
+									<div class="card">
+								      	<div class="card-body">
+								        	<div id="yearsale" style="height: 370px; width: 100%;"></div>
+								      	</div>
+								    </div> 
+								</div>
+								<div class="col-md-4 col-sm-4 col-lg-4">	
+						        	<div class="customer-ls card">
+										<h4 class="text-center text-black-50 p-2">Recent Buyers</h4>
+										<ul class="list-group">
+											<li class="list-group-item d-flex justify-content-between align-items-center">
+										    	<span class="badge">Profile</span>
+										    	<span class="badge">Name</span>
+										    	<span class="badge">Items</span>
+										    	<span class="badge">Price$</span>
+										  	</li>
+										  	<li class="list-group-item d-flex justify-content-between align-items-center">
+										    	<img src="../images/joewie.png" alt="..." class="img-thumbnail rounded-circle" style="width: 45px;">Joe Wie
+										    	<span class="badge badge-primary badge-pill bg-success">Camera</span>
+										    	<span class="badge badge-primary badge-pill bg-success">$1,000</span>
+										  	</li>
+										  	<li class="list-group-item d-flex justify-content-between align-items-center">
+										    	<img src="../images/joewie.png" alt="..." class="img-thumbnail rounded-circle" style="width: 45px;">Joe Wie
+										    	<span class="badge badge-primary badge-pill bg-success">Shooe</span>
+										    	<span class="badge badge-primary badge-pill bg-success">$2,000</span>
+										  	</li>
+										  	<li class="list-group-item d-flex justify-content-between align-items-center">
+										    	<img src="../images/joewie.png" alt="..." class="img-thumbnail rounded-circle" style="width: 45px;">Joe Wie
+										    	<span class="badge badge-primary badge-pill bg-success">Playstation</span>
+										    	<span class="badge badge-primary badge-pill bg-success">$650</span>
+										  	</li>
+										  	<li class="list-group-item d-flex justify-content-between align-items-center">
+										    	<img src="../images/joewie.png" alt="..." class="img-thumbnail rounded-circle" style="width: 45px;">Joe Wie
+										    	<span class="badge badge-primary badge-pill bg-danger">Reject Order</span>
+
+										    	<span class="badge badge-primary badge-pill bg-danger" style="text-decoration: line-through; text-decoration-color: #000;">$500</span>
+										  	</li>
+										  	<li class="list-group-item d-flex justify-content-between align-items-center">
+										    	<img src="../images/joewie.png" alt="..." class="img-thumbnail rounded-circle" style="width: 45px;">Joe Wie
+										    	<span class="badge badge-primary badge-pill bg-danger"> Reject Order</span>
+
+										    	<span class="badge badge-primary badge-pill bg-danger" style="text-decoration: line-through; text-decoration-color: #000;">$650</span>
+										  	</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-md-8 col-sm-8 col-lg-8">
+									<div class="card customer-privacy">
+									  	<div class="card-body">
+									    	<h4 class="text-center text-black-50 p-2">Order List</h4>
+									    	<table class="table">
+											  	<thead>
+												    <tr>
+												      	<th scope="col">SKU</th>
+												      	<th scope="col">Invoice#</th>
+												      	<th scope="col">Customer Name</th>
+												      	<th scope="col">Status</th>
+												      	<th scope="col">Amount</th>
+												    </tr>
+											  	</thead>
+											  	<tbody>
+												    <tr>
+												      	<td>PO-54321</td>
+												      	<td class="text-info">INV-110110</td>
+												      	<td>Joe Doe</td>
+												      	<td class="badge badge-success mt-1">Paid</td>
+												      	<td>$ 2,000</td>
+												    </tr>
+												    <tr>
+												      	<td>PO-54321</td>
+												      	<td class="text-info">INV-110110</td>
+												      	<td>Joe Doe</td>
+												      	<td class="badge badge-success mt-1">Paid</td>
+												      	<td>$ 2,000</td>
+												    </tr>
+												    <tr>
+												      	<td>PO-54321</td>
+												      	<td class="text-info">INV-110110</td>
+												      	<td>Joe Doe</td>
+												      	<td class="badge badge-success mt-1">Paid</td>
+												      	<td>$ 2,000</td>
+												    </tr>
+												    <tr>
+												      	<td>PO-54321</td>
+												      	<td class="text-info">INV-110110</td>
+												      	<td>Joe Doe</td>
+												      	<td class="badge badge-success mt-1">Paid</td>
+												      	<td>$ 2,000</td>
+												    </tr>
+												    <tr>
+												      	<td>PO-54321</td>
+												      	<td class="text-info">INV-110110</td>
+												      	<td>Joe Doe</td>
+												      	<td class="badge badge-success mt-1">Paid</td>
+												      	<td>$ 2,000</td>
+												    </tr>
+											  	</tbody>
+											</table>
+									  	</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-lg-4">
+									<div class="card">
+										<div class="card-body">
+											<div id="activeUser" style="height: 370px; width: 100%;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-cr bg-light p-5 mt-4 text-center">
+						<p class="text-black-50">
+							<a class="text-info text-decoration-none" href="../index.html">Data Board </a><span><i class="far fa-copyright"></i></span>2020 <span>Dev.HtetPhyoAung</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/all.min.js"></script>
+	<script src="../js/swiper.js"></script>
+	<script src="../js/analytic.js"></script>
+	<script src="../js/chat.js"></script>
+	<script src="../js/canvas.js"></script>
+	
+	
+
+</body>
+</html>
