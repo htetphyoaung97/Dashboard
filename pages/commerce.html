@@ -30,9 +30,7 @@
 						<div class="top-nav">
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-lg-4">
-									<a href="../index.html">
-										<img src="../images/ninja.png" alt="logo" style="width: 135px; height:65px;">
-									</a>
+									<!-- something -->
 								</div>
 								<div class="col-md-8 col-sm-8 col-lg-8">
 									<div class="main-nav">
@@ -40,7 +38,7 @@
 											<div class="right-side">
 												<ul>
 													<li>
-												      	<select id="inputState" class="form-control">
+												      	<select id="inputState" class="form-control btn btn-light">
 												        	<option selected>Myanmar</option>
 												        	<option>English</option>
 												        	<option>French</option>
@@ -67,20 +65,20 @@
 														  	</button>
 														  	<div class="dropdown-menu">
 															    <a class="dropdown-item" href="#">
-															     	<i class="fas fa-user"></i>Edit Profile
+															     	<i class="fas fa-user"></i> Edit Profile
 																</a>
 															    <a class="dropdown-item" href="#">
-															    	<i class="fas fa-envelope"></i>My Box
+															    	<i class="fas fa-envelope"></i> My Box
 																</a>
 															    <a class="dropdown-item" href="#">
-															    	<i class="fas fa-tasks"></i>Task
+															    	<i class="fas fa-tasks"></i> Task
 																</a>
 															    <a class="dropdown-item" href="#">
-															    	<i class="fas fa-comment"></i>Chart
+															    	<i class="fas fa-comment"></i> Chart
 															    </a>
 														    	<div class="dropdown-divider"></div>
 														    	<a class="dropdown-item" href="#">
-														    		<i class="fas fa-sign-out-alt"></i>LogOut
+														    		<i class="fas fa-sign-out-alt"></i> LogOut
 														    	</a>
 														  	</div>
 														</div>
@@ -103,11 +101,11 @@
 				<div class="col-md-2 col-sm-2 col-lg-2 left-side-bar-menu">		
 					<div class="wrapper">
 					    <!-- Sidebar  -->
-					    <nav id="sidebar">	        
-					        <h6>Menu</h6>
+					    <nav id="sidebar" class="pl-2">	        
+					        <h6 style="font-size: 20px; text-transform: uppercase;">Menu</h6>
 					        <ul class="list-unstyled components">
 					            <li class="active">
-					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="font-size: 15px;">
 					                    <i class="fas fa-home"></i>
 					                    Dashboards
 					                </a>
@@ -127,16 +125,16 @@
 					                </ul>
 					            </li>
 					            <li>
-					                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="font-size: 15px;">
 					                    <i class="fas fa-copy"></i>
 					                    Pages 
 					                </a>
 					                <ul class="collapse list-unstyled" id="pageSubmenu">
 				                    	<li>
-				                    		<a href="">Login</a>
+				                    		<a href="login.html">Login</a>
 				                    	</li>
 				                    	<li>
-				                    		<a href="">Register</a>
+				                    		<a href="singin.html">Register</a>
 				                    	</li>
 				                    	<li>
 				                    		<a href="">Forgot Password</a>
@@ -146,7 +144,7 @@
 					            <ul class ="application">
 					            	<li>
 					            		<a href="#applicationDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-					            			<i class="fas fa-gifts"></i>Application
+					            			<i class="fas fa-gifts"></i> Application
 					            		</a>
 					            		<ul id="applicationDropDown" class="help-team">
 					            			<li>
@@ -165,11 +163,11 @@
 					            	</li>
 					            </ul>
 					        </ul>
-					        <h6>UI COMPONENTS</h6>
+					        <h6 style="font-size: 20px;">UI COMPONENTS</h6>
 					        <ul>
 					        	<li>
-					        		<a href="#elementDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-					        			<i class="far fa-gem"></i>Elements
+					        		<a href="project.html" style="font-size: 15px;">
+					        			<i class="far fa-gem"></i> Project Summary
 					        		</a>
 					        	</li>
 					        	<ul class="noti">
@@ -208,12 +206,14 @@
 						<div class="row">
 							<div class="col-md-12 col-sm-12 col-lg-12">
 								<div class="card mt-5">
-									<div id="commerceChart" style="height: 370px; width: 100%;"></div>
+									<div class="card-body">
+										<div id="commerceChart" style="height: 370px; width: 100%;"></div>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="row mt-4">
-							<div class="col-md-3 col-sm-3 col-lg-3">
+							<div class="col-md-3 col-sm-3 col-lg-3 mt-4">
 								<div class="card">
 									<div class="card-body">
 										<div class="daily-checkin w-100 text-center">
@@ -231,7 +231,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-3 col-lg-3">
+							<div class="col-md-3 col-sm-3 col-lg-3 mt-4">
 								<div class="card">
 									<div class="card-body">
 										<div class="daily-checkin w-100 text-center">
@@ -249,7 +249,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-3 col-lg-3">
+							<div class="col-md-3 col-sm-3 col-lg-3 mt-4">
 								<div class="card">
 									<div class="card-body">
 										<div class="daily-checkin w-100 text-center">
@@ -267,7 +267,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-3 col-lg-3">
+							<div class="col-md-3 col-sm-3 col-lg-3 mt-4">
 								<div class="card">
 									<div class="card-body">
 										<div class="daily-checkin w-100 text-center">
@@ -287,27 +287,87 @@
 							</div>
 						</div>
 						<div class="row mt-4">
-							<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="col-md-6 col-sm-6 col-lg-6 mt-4">
 								<div class="card">
-									<div id="badges" style="height: 370px; width: 100%;"></div>
+									<div class="card-body">
+										<div id="badges" style="height: 370px; width: 100%;"></div>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="col-md-6 col-sm-6 col-lg-6 mt-4">
+								<div class="card" style="overflow: auto;">
+									<div class="card-body">
+										<div class="badges-ls">
+											<table class="table">
+												<h3 class="text-uppercase ml-1 text-black-50">goals complition</h3>
+											  	<thead>
+												    <tr>
+												      	<th scope="col">Goal</th>
+												      	<th scope="col">Goal Value</th>
+												      	<th scope="col">Conversion Rate</th>
+												    </tr>
+											  	</thead>
+											  	<tbody>
+												    <tr>
+												      	<td>Account</td>
+												      	<td>1$</td>
+												      	<td>85%
+												      		<div class="bg-light" style="width:100%; height: 15px;">
+												      			<div class="bg-success" style="width:85%; height: 15px;"></div>
+												      		</div>
+												      	</td>
+												    </tr>
+												    <tr>
+												      	<td>Subscribe</td>
+												      	<td>1.5$</td>
+												      	<td>75%
+												      		<div class="bg-light" style="width:100%; height: 15px;">
+												      			<div class="bg-info" style="width:75%; height: 15px;"></div>
+												      		</div>
+												      	</td>
+												    </tr>
+												    <tr>
+												      	<td>Mobile</td>
+												      	<td>200$</td>
+												      	<td>65%
+												      		<div class="bg-light" style="width:100%; height: 15px;">
+												      			<div class="bg-warning" style="width:65%; height: 15px;"></div>
+												      		</div>
+												      	</td>
+												    </tr>
+											  	</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-md-8 col-sm-8 col-lg-8 mt-4">
 								<div class="card">
-									<div class="badges-ls">
+									<div class="card-body">
+										<div id="weeklyChart" style="height: 370px; width: 100%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-lg-4 mt-4">
+								<div class="card" style="overflow: auto;">
+									<div class="card-body">
 										<table class="table">
 											<h3 class="text-uppercase ml-1 text-black-50">goals complition</h3>
 										  	<thead>
 											    <tr>
-											      	<th scope="col">Goal</th>
-											      	<th scope="col">Goal Value</th>
-											      	<th scope="col">Conversion Rate</th>
+											    	<th scope="col">User List</th>
+											      	<th scope="col">Daily Value</th>
+											      	<th scope="col">Weekly Value</th>
+											      	<th scope="col">Month Rate</th>
 											    </tr>
 										  	</thead>
 										  	<tbody>
 											    <tr>
-											      	<td>Account</td>
-											      	<td>1$</td>
+											    	<td>Mobile</td>
+											      	<td>100$</td>
+											      	<td>750$</td>
 											      	<td>85%
 											      		<div class="bg-light" style="width:100%; height: 15px;">
 											      			<div class="bg-success" style="width:85%; height: 15px;"></div>
@@ -315,8 +375,9 @@
 											      	</td>
 											    </tr>
 											    <tr>
-											      	<td>Subscribe</td>
-											      	<td>1.5$</td>
+											    	<td>Mobile</td>
+											      	<td>20$</td>
+											      	<td>150$</td>
 											      	<td>75%
 											      		<div class="bg-light" style="width:100%; height: 15px;">
 											      			<div class="bg-info" style="width:75%; height: 15px;"></div>
@@ -324,11 +385,12 @@
 											      	</td>
 											    </tr>
 											    <tr>
-											      	<td>Mobile</td>
+											    	<td>Mobile</td>
 											      	<td>200$</td>
-											      	<td>65%
+											      	<td>2000$</td>
+											      	<td>95%
 											      		<div class="bg-light" style="width:100%; height: 15px;">
-											      			<div class="bg-warning" style="width:65%; height: 15px;"></div>
+											      			<div class="bg-warning" style="width:95%; height: 15px;"></div>
 											      		</div>
 											      	</td>
 											    </tr>
@@ -338,62 +400,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="row mt-4">
-							<div class="col-md-8 col-sm-8 col-lg-8">
-								<div class="card">
-									<div id="weeklyChart" style="height: 370px; width: 100%;"></div>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4 col-lg-4">
-								<div class="card">
-									<table class="table">
-										<h3 class="text-uppercase ml-1 text-black-50">goals complition</h3>
-									  	<thead>
-										    <tr>
-										    	<th scope="col">User List</th>
-										      	<th scope="col">Daily Value</th>
-										      	<th scope="col">Weekly Value</th>
-										      	<th scope="col">Month Rate</th>
-										    </tr>
-									  	</thead>
-									  	<tbody>
-										    <tr>
-										    	<td>Mobile</td>
-										      	<td>100$</td>
-										      	<td>750$</td>
-										      	<td>85%
-										      		<div class="bg-light" style="width:100%; height: 15px;">
-										      			<div class="bg-success" style="width:85%; height: 15px;"></div>
-										      		</div>
-										      	</td>
-										    </tr>
-										    <tr>
-										    	<td>Mobile</td>
-										      	<td>20$</td>
-										      	<td>150$</td>
-										      	<td>75%
-										      		<div class="bg-light" style="width:100%; height: 15px;">
-										      			<div class="bg-info" style="width:75%; height: 15px;"></div>
-										      		</div>
-										      	</td>
-										    </tr>
-										    <tr>
-										    	<td>Mobile</td>
-										      	<td>200$</td>
-										      	<td>2000$</td>
-										      	<td>95%
-										      		<div class="bg-light" style="width:100%; height: 15px;">
-										      			<div class="bg-warning" style="width:95%; height: 15px;"></div>
-										      		</div>
-										      	</td>
-										    </tr>
-									  	</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
 					</div>
-					<div class="footer-cr bg-light p-5 mt-4 text-center">
+					<div class="footer-cr bg-light p-3 mt-4 text-center">
 						<p class="text-black-50">
 							<a class="text-info text-decoration-none" href="../index.html">Data Board </a><span><i class="far fa-copyright"></i></span>2020 <span>Dev.HtetPhyoAung</span>
 						</p>

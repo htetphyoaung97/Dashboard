@@ -5,6 +5,13 @@
 		top: 0;
 		left: 0;
 	}
+	.user-chart {
+		max-width: 100%;
+		flex:100%;
+	}
+	.chat-bg {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 426px) {
@@ -23,3 +30,6 @@
 		background:#fff;
 	}
 }
+
+
+

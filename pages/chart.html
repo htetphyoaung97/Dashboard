@@ -30,9 +30,7 @@
 						<div class="top-nav">
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-lg-4">
-									<a href="../index.html">
-										<img src="../images/ninja.png" alt="logo" style="width: 135px; height:65px;">
-									</a>
+									<!-- something -->
 								</div>
 								<div class="col-md-8 col-sm-8 col-lg-8">
 									<div class="main-nav">
@@ -40,7 +38,7 @@
 											<div class="right-side">
 												<ul>
 													<li>
-												      	<select id="inputState" class="form-control">
+												      	<select id="inputState" class="form-control btn btn-light">
 												        	<option selected>Myanmar</option>
 												        	<option>English</option>
 												        	<option>French</option>
@@ -67,20 +65,20 @@
 														  	</button>
 														  	<div class="dropdown-menu">
 															    <a class="dropdown-item" href="#">
-															     	<i class="fas fa-user"></i>Edit Profile
+															     	<i class="fas fa-user"></i> Edit Profile
 																</a>
 															    <a class="dropdown-item" href="#">
-															    	<i class="fas fa-envelope"></i>My Box
+															    	<i class="fas fa-envelope"></i> My Box
 																</a>
 															    <a class="dropdown-item" href="#">
-															    	<i class="fas fa-tasks"></i>Task
+															    	<i class="fas fa-tasks"></i> Task
 																</a>
 															    <a class="dropdown-item" href="#">
-															    	<i class="fas fa-comment"></i>Chart
+															    	<i class="fas fa-comment"></i> Chart
 															    </a>
 														    	<div class="dropdown-divider"></div>
 														    	<a class="dropdown-item" href="#">
-														    		<i class="fas fa-sign-out-alt"></i>LogOut
+														    		<i class="fas fa-sign-out-alt"></i> LogOut
 														    	</a>
 														  	</div>
 														</div>
@@ -103,11 +101,11 @@
 				<div class="col-md-2 col-sm-2 col-lg-2 left-side-bar-menu">		
 					<div class="wrapper">
 					    <!-- Sidebar  -->
-					    <nav id="sidebar">	        
-					        <h6>Menu</h6>
+					    <nav id="sidebar" class="pl-2">	        
+					        <h6 style="font-size: 20px; text-transform: uppercase;">Menu</h6>
 					        <ul class="list-unstyled components">
 					            <li class="active">
-					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="font-size: 15px;">
 					                    <i class="fas fa-home"></i>
 					                    Dashboards
 					                </a>
@@ -127,7 +125,7 @@
 					                </ul>
 					            </li>
 					            <li>
-					                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="font-size: 15px;">
 					                    <i class="fas fa-copy"></i>
 					                    Pages 
 					                </a>
@@ -146,7 +144,7 @@
 					            <ul class ="application">
 					            	<li>
 					            		<a href="#applicationDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-					            			<i class="fas fa-gifts"></i>Application
+					            			<i class="fas fa-gifts"></i> Application
 					            		</a>
 					            		<ul id="applicationDropDown" class="help-team">
 					            			<li>
@@ -165,16 +163,16 @@
 					            	</li>
 					            </ul>
 					        </ul>
-					        <h6>UI COMPONENTS</h6>
+					        <h6 style="font-size: 20px;">UI COMPONENTS</h6>
 					        <ul>
 					        	<li>
-					        		<a href="project.html">
-					        			<i class="far fa-gem"></i>Project Summary
+					        		<a href="project.html" style="font-size: 15px;">
+					        			<i class="far fa-gem"></i> Project Summary
 					        		</a>
 					        	</li>
 					        	<ul class="noti">
 					        		<li>
-					        			<a href="#componentDropDown">
+					        			<a href="#componentDropDown" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
 					        				<i class="fas fa-car"></i>
 					        					Components
 					        			</a>
@@ -188,13 +186,13 @@
 					        			</a>
 					        			<ul id="tableDropDown" class="table-bar">
 					        				<li>
-					        					<a href="#">Data Tables</a>
+					        					<a href="datatb.html">Data Tables</a>
 					        				</li>
 					        				<li>
-					        					<a href="#">Regular Tables</a>
+					        					<a href="regulartb.html">Regular Tables</a>
 					        				</li>
 					        				<li>
-					        					<a href="#">Grid Tables</a>
+					        					<a href="gridtb.html">Grid Tables</a>
 					        				</li>
 					        			</ul>
 					        		</li>
@@ -206,11 +204,11 @@
 				<div class="col-md-10 col-sm-10 col-lg-10 mail-pos pl-0 pb-0">
 					<div class="container-fluid">
 						<div class="row mt-4">
-							<div class="col-md-3 col-sm-3 col-lg-3">
+							<div class="col-md-3 col-sm-3 col-lg-3 user-chart">
 								<div class="chart">
 									<ul class="list-group">
 									  	<li class="list-group-item">
-									  		<img src="../images/joedoe.png" style="width: 30px; height: 30px;" class="rounded-circle mr-2">
+									  		<img src="../images/joedoe.png" style="width: 30px; height: 30px;" class="rounded-circle">
 									  		<input type="search" name="search" class="rounded-pill border border-info" placeholder="Search">
 									  		<span class="searchicon"><i class="fas fa-search"></i></span>
 									  	</li>
